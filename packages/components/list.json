@@ -1,0 +1,16 @@
+[
+  {
+    "name": "AVWButton",
+    "use": "avw-button",
+    "label": "按钮",
+    "group": "button",
+    "description": "这是一个按钮"
+  },
+  {
+    "name": "AVWTooltip",
+    "label": "提示",
+    "use": "avw-tooltip",
+    "group": "tooltip",
+    "description": "提示组件"
+  }
+]

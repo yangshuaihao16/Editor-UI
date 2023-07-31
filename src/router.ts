@@ -1,0 +1,55 @@
+/** 
+ * !--------- WARNING ----------!
+ * 
+ * 根据 /packages 目录下的组件所生成的组件类侧边导航栏配置，请勿手动修改
+ */
+
+
+import {
+	createRouter,
+	createWebHashHistory,
+	NavigationGuardNext,
+	RouteLocationNormalized,
+	RouterOptions,
+} from 'vue-router';
+
+import NProgress from 'nprogress';
+import 'nprogress/nprogress.css';
+
+NProgress.configure({ showSpinner: false });
+
+const routes = [{
+        title: '按钮',
+        name: 'AVWButton',
+        path: '/components/avw-button',
+        component: () => import('/packages/components/button/doc/doc.md'),
+      },{
+        title: '提示',
+        name: 'AVWTooltip',
+        path: '/components/avw-tooltip',
+        component: () => import('/packages/components/tooltip/doc/doc.md'),
+      }];
+ 
+const routerConfig = {
+  history: createWebHashHistory(),
+  routes,
+  scrollBehavior(to: any, from: any) {
+    if (to.path !== from.path) {
+      return { top: 0 };
+    }
+  },
+};
+ 
+
+const router = createRouter(routerConfig as RouterOptions);
+
+router.beforeEach((to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) => {
+	NProgress.start(); // 开启进度条
+	next();
+});
+
+router.afterEach(() => {
+	NProgress.done(); //完成进度条
+});
+
+export default router;

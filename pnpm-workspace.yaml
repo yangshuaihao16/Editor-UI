@@ -1,0 +1,4 @@
+packages:
+  - "packages/**" # 组件库
+  - docs # 组件库文档
+  - app # 组件调试应用

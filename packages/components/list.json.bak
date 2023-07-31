@@ -1,0 +1,9 @@
+[
+	{
+		"name": "AVWButton",
+		"use": "avw-button",
+		"label": "按钮",
+		"group": "button",
+		"description": "这是一个按钮"
+	}
+]
