@@ -35,6 +35,12 @@ const props = defineProps({
 		default: '',
 		require: true,
 	},
+	// 文件名
+	file: {
+		type: String,
+		default: '',
+		require: true,
+	},
 });
 
 let sourceCode = ref('');
@@ -49,11 +55,11 @@ onMounted(async () => {
 	if (props.folder) {
 		if (isDev) {
 			sourceCode.value = (
-				await import(/* @vite-ignore */ `../../packages/components/${props.folder}/doc/DocDemo.vue?raw`)
+				await import(/* @vite-ignore */ `../../packages/components/${props.folder}/doc/${props.file}.vue?raw`)
 			).default;
 		} else {
 			sourceCode.value = await fetch(
-				`${isDev ? '' : '/Editor-UI'}/packages/components/${props.folder}/doc/DocDemo.vue`
+				`${isDev ? '' : '/Editor-UI'}/packages/components/${props.folder}/doc/${props.file}.vue`
 			).then((res) => res.text());
 		}
 	}
@@ -80,6 +86,7 @@ pre {
 
 .source-code {
 	max-height: 500px;
+	overflow: auto;
 }
 .language-html {
 	margin: 0;

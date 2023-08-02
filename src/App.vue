@@ -11,7 +11,7 @@ const data = reactive({
 	})),
 });
 
-console.log(data.links.value);
+// console.log(data.links.value);
 </script>
 
 <template>
@@ -65,6 +65,7 @@ console.log(data.links.value);
 
 	.el-container {
 		margin-top: 1px;
+		overflow: hidden;
 	}
 
 	.el-aside {

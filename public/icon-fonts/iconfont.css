@@ -1,0 +1,1499 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 1948848 */
+  src: url('iconfont.woff2?t=1681289738680') format('woff2'),
+       url('iconfont.woff?t=1681289738680') format('woff'),
+       url('iconfont.ttf?t=1681289738680') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.avw-shpline:before {
+  content: "\e82e";
+}
+
+.avw-shpplane:before {
+  content: "\e82f";
+}
+
+.avw-listtool-models:before {
+  content: "\e82d";
+}
+
+.avw-listtool-addparticle:before {
+  content: "\e81a";
+}
+
+.avw-listtool-cloning:before {
+  content: "\e81c";
+}
+
+.avw-listtool-bottom:before {
+  content: "\e81d";
+}
+
+.avw-listtool-delete:before {
+  content: "\e81e";
+}
+
+.avw-listtool-coordinate:before {
+  content: "\e81f";
+}
+
+.avw-listtool-export:before {
+  content: "\e820";
+}
+
+.avw-listtool-edit:before {
+  content: "\e821";
+}
+
+.avw-listtool-import:before {
+  content: "\e822";
+}
+
+.avw-listtool-objectinfo:before {
+  content: "\e823";
+}
+
+.avw-listtool-rename:before {
+  content: "\e824";
+}
+
+.avw-listtool-saveaslocal:before {
+  content: "\e825";
+}
+
+.avw-listtool-saveashirer:before {
+  content: "\e826";
+}
+
+.avw-listtool-sunitizationon:before {
+  content: "\e827";
+}
+
+.avw-listtool-sunitizationscenexyz:before {
+  content: "\e828";
+}
+
+.avw-listtool-sunitizationoff:before {
+  content: "\e829";
+}
+
+.avw-listtool-add:before {
+  content: "\e82a";
+}
+
+.avw-listtool-addicon:before {
+  content: "\e82b";
+}
+
+.avw-listtool-top:before {
+  content: "\e82c";
+}
+
+.avw-empowerment-copy:before {
+  content: "\e81b";
+}
+
+.avw-canvaspaste:before {
+  content: "\e817";
+}
+
+.avw-canvascancel:before {
+  content: "\e819";
+}
+
+.avw-canvasresume:before {
+  content: "\e818";
+}
+
+.avw-trainingbase:before {
+  content: "\e815";
+}
+
+.avw-modelsetup-:before {
+  content: "\e816";
+}
+
+.avw-experimental:before {
+  content: "\e814";
+}
+
+.avw-tuguancity-01:before {
+  content: "\e813";
+}
+
+.avw-aligntop:before {
+  content: "\e803";
+}
+
+.avw-alignvertical:before {
+  content: "\e804";
+}
+
+.avw-alignright:before {
+  content: "\e805";
+}
+
+.avw-copy01:before {
+  content: "\e806";
+}
+
+.avw-alignobject:before {
+  content: "\e807";
+}
+
+.avw-distributionhorizonta:before {
+  content: "\e808";
+}
+
+.avw-copy02:before {
+  content: "\e809";
+}
+
+.avw-distancehigh:before {
+  content: "\e80a";
+}
+
+.avw-aligndown:before {
+  content: "\e80b";
+}
+
+.avw-proportion:before {
+  content: "\e80c";
+}
+
+.avw-distributionvertical:before {
+  content: "\e80d";
+}
+
+.avw-distancewidth:before {
+  content: "\e80e";
+}
+
+.avw-alignleft:before {
+  content: "\e80f";
+}
+
+.avw-aligncenter:before {
+  content: "\e810";
+}
+
+.avw-paste1:before {
+  content: "\e811";
+}
+
+.avw-aligncanvas:before {
+  content: "\e812";
+}
+
+.avw-snview:before {
+  content: "\e7fd";
+}
+
+.avw-2dview:before {
+  content: "\e7fe";
+}
+
+.avw-cityeffects:before {
+  content: "\e7ff";
+}
+
+.avw-templatestly:before {
+  content: "\e800";
+}
+
+.avw-3dview:before {
+  content: "\e801";
+}
+
+.avw-clipping:before {
+  content: "\e802";
+}
+
+.avw-batch:before {
+  content: "\e7f7";
+}
+
+.avw-control:before {
+  content: "\e7f8";
+}
+
+.avw-room:before {
+  content: "\e7f9";
+}
+
+.avw-safety:before {
+  content: "\e7fa";
+}
+
+.avw-door:before {
+  content: "\e7fb";
+}
+
+.avw-environment:before {
+  content: "\e7fc";
+}
+
+.avw-dropdown:before {
+  content: "\e7ee";
+}
+
+.avw-exportsmodel:before {
+  content: "\e7ef";
+}
+
+.avw-linkscene:before {
+  content: "\e7f0";
+}
+
+.avw-spacingtool:before {
+  content: "\e7f1";
+}
+
+.avw-twinmodel:before {
+  content: "\e7f2";
+}
+
+.avw-aligntool:before {
+  content: "\e7f3";
+}
+
+.avw-cachetool:before {
+  content: "\e7f4";
+}
+
+.avw-service:before {
+  content: "\e7f5";
+}
+
+.avw-uploading:before {
+  content: "\e7f6";
+}
+
+.avw-objectlink:before {
+  content: "\e7ed";
+}
+
+.avw_select:before {
+  content: "\e7e9";
+}
+
+.avw_icontip:before {
+  content: "\e7ea";
+}
+
+.avw_buttomgroups:before {
+  content: "\e7eb";
+}
+
+.avw_hottop:before {
+  content: "\e7ec";
+}
+
+.avw_boolturfalse:before {
+  content: "\e7e5";
+}
+
+.a-avw_decimalint:before {
+  content: "\e7e6";
+}
+
+.avw_datatime:before {
+  content: "\e7e7";
+}
+
+.a-avw_stringtext:before {
+  content: "\e7e8";
+}
+
+.avw-privilege:before {
+  content: "\e7de";
+}
+
+.avw-money:before {
+  content: "\e7df";
+}
+
+.avw-authorization:before {
+  content: "\e7e0";
+}
+
+.avw-project:before {
+  content: "\e7e1";
+}
+
+.avw-shop:before {
+  content: "\e7e2";
+}
+
+.avw-ask:before {
+  content: "\e7e3";
+}
+
+.avw-app:before {
+  content: "\e7e4";
+}
+
+.avw-sac:before {
+  content: "\e7dc";
+}
+
+.avw-desc:before {
+  content: "\e7dd";
+}
+
+.avw-imageasset:before {
+  content: "\e7c9";
+}
+
+.avw-linkapi:before {
+  content: "\e7ca";
+}
+
+.avw-layerspline:before {
+  content: "\e7cb";
+}
+
+.avw-objectspline:before {
+  content: "\e7cc";
+}
+
+.avw-morespline:before {
+  content: "\e7cd";
+}
+
+.avw-view:before {
+  content: "\e7ce";
+}
+
+.avw-newscene:before {
+  content: "\e7cf";
+}
+
+.avw-saveasscene:before {
+  content: "\e7d0";
+}
+
+.avw-addalignmeshcamera:before {
+  content: "\e7d1";
+}
+
+.avw-spline:before {
+  content: "\e7d2";
+}
+
+.avw-effectsspline:before {
+  content: "\e7d3";
+}
+
+.avw-grids:before {
+  content: "\e7d4";
+}
+
+.avw-combination:before {
+  content: "\e7d5";
+}
+
+.avw-add0bliquephoto:before {
+  content: "\e7d6";
+}
+
+.avw-arrayspline:before {
+  content: "\e7d7";
+}
+
+.avw-spreadspline:before {
+  content: "\e7d8";
+}
+
+.avw-worldxyz:before {
+  content: "\e7d9";
+}
+
+.avw-addbuildings:before {
+  content: "\e7da";
+}
+
+.avw-localxyz:before {
+  content: "\e7db";
+}
+
+.avw-shopping:before {
+  content: "\e7c8";
+}
+
+.avw-icons:before {
+  content: "\e7bf";
+}
+
+.avw-homes:before {
+  content: "\e7c0";
+}
+
+.avw-buildings:before {
+  content: "\e7c1";
+}
+
+.avw-0ffices:before {
+  content: "\e7c2";
+}
+
+.avw-actors:before {
+  content: "\e7c3";
+}
+
+.avw-carriers:before {
+  content: "\e7c4";
+}
+
+.avw-traffics:before {
+  content: "\e7c5";
+}
+
+.avw-treess:before {
+  content: "\e7c6";
+}
+
+.avw-facilities:before {
+  content: "\e7c7";
+}
+
+.avw-notice:before {
+  content: "\e7bc";
+}
+
+.avw-explain:before {
+  content: "\e7bd";
+}
+
+.avw-correct1:before {
+  content: "\e7be";
+}
+
+.avw-saveas:before {
+  content: "\e7bb";
+}
+
+.avw-asset:before {
+  content: "\e7ba";
+}
+
+.avw-paste:before {
+  content: "\e7b8";
+}
+
+.avw-recover:before {
+  content: "\e7b9";
+}
+
+.avw-planeeye:before {
+  content: "\e7b1";
+}
+
+.avw-singlecycle:before {
+  content: "\e7b6";
+}
+
+.avw-nocycle:before {
+  content: "\e7b7";
+}
+
+.avw-cubeeys:before {
+  content: "\e7b0";
+}
+
+.avw-repeatedcycle:before {
+  content: "\e7b2";
+}
+
+.avw-globeeye:before {
+  content: "\e7b3";
+}
+
+.avw-helpLine:before {
+  content: "\e7b4";
+}
+
+.avw-cylinder:before {
+  content: "\e7b5";
+}
+
+.avw-grabmateria:before {
+  content: "\e7af";
+}
+
+.avw-demo:before {
+  content: "\e7ad";
+}
+
+.avw-table:before {
+  content: "\e7ae";
+}
+
+.avw-sceneinformation:before {
+  content: "\e7ac";
+}
+
+.avw_sceneset:before {
+  content: "\e7aa";
+}
+
+.avw_pagesset:before {
+  content: "\e7ab";
+}
+
+.avw-remove:before {
+  content: "\e7a6";
+}
+
+.avw-eyecoordinate:before {
+  content: "\e7a7";
+}
+
+.avw-exportjs:before {
+  content: "\e7a8";
+}
+
+.avw-xycoordinate:before {
+  content: "\e7a9";
+}
+
+.avw-area:before {
+  content: "\e793";
+}
+
+.avw-content:before {
+  content: "\e794";
+}
+
+.avw-click:before {
+  content: "\e795";
+}
+
+.avw-importmodel:before {
+  content: "\e796";
+}
+
+.avw-layerbuildings:before {
+  content: "\e797";
+}
+
+.avw-more1:before {
+  content: "\e798";
+}
+
+.avw-layermore:before {
+  content: "\e799";
+}
+
+.avw-newbuildings:before {
+  content: "\e79a";
+}
+
+.avw-layermap:before {
+  content: "\e79b";
+}
+
+.avw-layerwater:before {
+  content: "\e79c";
+}
+
+.avw-layerpainting:before {
+  content: "\e79d";
+}
+
+.avw-zoomopen:before {
+  content: "\e79e";
+}
+
+.avw-stuffsub:before {
+  content: "\e79f";
+}
+
+.avw-proclamation1:before {
+  content: "\e7a0";
+}
+
+.avw-uninstall:before {
+  content: "\e7a1";
+}
+
+.avw-offzoom:before {
+  content: "\e7a2";
+}
+
+.avw-objectdata:before {
+  content: "\e7a3";
+}
+
+.avw-stuffadd:before {
+  content: "\e7a4";
+}
+
+.avw-newfloor:before {
+  content: "\e7a5";
+}
+
+.avw-proclamation:before {
+  content: "\e792";
+}
+
+.avw-tool-rotatevariate1:before {
+  content: "\e78c";
+}
+
+.avw-tool-shiftvariate:before {
+  content: "\e790";
+}
+
+.avw-tool-object:before {
+  content: "\e78a";
+}
+
+.avw-tool-localtxyz:before {
+  content: "\e78b";
+}
+
+.avw-tool-sizevariate:before {
+  content: "\e78d";
+}
+
+.avw-tool-size:before {
+  content: "\e78e";
+}
+
+.avw-tool-rotatevariate:before {
+  content: "\e78f";
+}
+
+.avw-tool-worldxyz:before {
+  content: "\e791";
+}
+
+.avw-publishsiccess:before {
+  content: "\e785";
+}
+
+.avw-publishcheckover:before {
+  content: "\e786";
+}
+
+.avw-publishover:before {
+  content: "\e787";
+}
+
+.avw-publishtime:before {
+  content: "\e788";
+}
+
+.avw-publishnetpover:before {
+  content: "\e789";
+}
+
+.avw-storeup:before {
+  content: "\e755";
+}
+
+.avw-visitup:before {
+  content: "\e784";
+}
+
+.avw-tab-node1:before {
+  content: "\e782";
+}
+
+.avw-terrain:before {
+  content: "\e781";
+}
+
+.avw-cloudbottom:before {
+  content: "\e776";
+}
+
+.avw-boxline:before {
+  content: "\e775";
+}
+
+.avw-boxdata:before {
+  content: "\e777";
+}
+
+.avw-boxs:before {
+  content: "\e778";
+}
+
+.avw-tree:before {
+  content: "\e779";
+}
+
+.avw-trees:before {
+  content: "\e77a";
+}
+
+.avw-box:before {
+  content: "\e77b";
+}
+
+.avw-lightline:before {
+  content: "\e77c";
+}
+
+.avw-cloudbox:before {
+  content: "\e77d";
+}
+
+.avw-treesdata:before {
+  content: "\e77e";
+}
+
+.avw-treesline:before {
+  content: "\e77f";
+}
+
+.avw-objectline:before {
+  content: "\e780";
+}
+
+.avw-player-play:before {
+  content: "\e772";
+}
+
+.avw-player-stop:before {
+  content: "\e773";
+}
+
+.avw-player-pause:before {
+  content: "\e774";
+}
+
+.avw-gauget-decrease01:before {
+  content: "\e76e";
+}
+
+.avw-gauget-decrease02:before {
+  content: "\e76f";
+}
+
+.avw-gauget-increase02:before {
+  content: "\e770";
+}
+
+.avw-gauget-increase01:before {
+  content: "\e771";
+}
+
+.avw-tool-eyeright:before {
+  content: "\e76c";
+}
+
+.avw-tool-eyeleft:before {
+  content: "\e76d";
+}
+
+.avw-water-copy:before {
+  content: "\e783";
+}
+
+.avw-2dlabels:before {
+  content: "\e736";
+}
+
+.avw-buildingscan:before {
+  content: "\e737";
+}
+
+.avw-datarain:before {
+  content: "\e738";
+}
+
+.avw-3dlabels:before {
+  content: "\e739";
+}
+
+.avw-cloud:before {
+  content: "\e73a";
+}
+
+.avw-firefly:before {
+  content: "\e73b";
+}
+
+.avw-carflow:before {
+  content: "\e73c";
+}
+
+.avw-lintomodel:before {
+  content: "\e73d";
+}
+
+.avw-location:before {
+  content: "\e73e";
+}
+
+.avw-modelflow:before {
+  content: "\e73f";
+}
+
+.avw-modelmarrix:before {
+  content: "\e740";
+}
+
+.avw-pause:before {
+  content: "\e741";
+}
+
+.avw-play:before {
+  content: "\e742";
+}
+
+.avw-objectstructure:before {
+  content: "\e743";
+}
+
+.avw-stop:before {
+  content: "\e744";
+}
+
+.avw-tab-animation:before {
+  content: "\e745";
+}
+
+.avw-rain:before {
+  content: "\e746";
+}
+
+.avw-snow:before {
+  content: "\e747";
+}
+
+.avw-style:before {
+  content: "\e748";
+}
+
+.avw-tab-camera:before {
+  content: "\e749";
+}
+
+.avw-tab-joint:before {
+  content: "\e74a";
+}
+
+.avw-tab-coordinateedit:before {
+  content: "\e74b";
+}
+
+.avw-tab-lamplight:before {
+  content: "\e74c";
+}
+
+.avw-tab-modeledit:before {
+  content: "\e74d";
+}
+
+.avw-tab-background:before {
+  content: "\e74e";
+}
+
+.avw-tab-stateedit:before {
+  content: "\e74f";
+}
+
+.avw-tab-sceneedit:before {
+  content: "\e750";
+}
+
+.avw-tab-object:before {
+  content: "\e751";
+}
+
+.avw-tab-path:before {
+  content: "\e752";
+}
+
+.avw-tab-texture:before {
+  content: "\e753";
+}
+
+.avw-territoryscan:before {
+  content: "\e754";
+}
+
+.avw-tab-structure:before {
+  content: "\e756";
+}
+
+.avw-tool-eachother:before {
+  content: "\e757";
+}
+
+.avw-tool-auorotation:before {
+  content: "\e758";
+}
+
+.avw-tool-forward:before {
+  content: "\e759";
+}
+
+.avw-tool-full:before {
+  content: "\e75a";
+}
+
+.avw-tool-information:before {
+  content: "\e75b";
+}
+
+.avw-tool-auto:before {
+  content: "\e75c";
+}
+
+.avw-tool-reverse:before {
+  content: "\e75d";
+}
+
+.avw-tool-scale:before {
+  content: "\e75e";
+}
+
+.avw-tool-rotate:before {
+  content: "\e75f";
+}
+
+.avw-tool-location:before {
+  content: "\e760";
+}
+
+.avw-tool-shift:before {
+  content: "\e761";
+}
+
+.avw-tool-stateedit:before {
+  content: "\e762";
+}
+
+.avw-tool-structure:before {
+  content: "\e763";
+}
+
+.avw-water:before {
+  content: "\e764";
+}
+
+.avw-tab-particle:before {
+  content: "\e765";
+}
+
+.avw-tab-effects:before {
+  content: "\e766";
+}
+
+.avw-twinkle:before {
+  content: "\e767";
+}
+
+.avw-tool-share:before {
+  content: "\e768";
+}
+
+.avw-tab-voice:before {
+  content: "\e769";
+}
+
+.avw-firework:before {
+  content: "\e76a";
+}
+
+.avw-tool-style:before {
+  content: "\e76b";
+}
+
+.avw-iconground:before {
+  content: "\e734";
+}
+
+.avw-star:before {
+  content: "\e735";
+}
+
+.avw-title-doublerectangle:before {
+  content: "\e732";
+}
+
+.avw-save:before {
+  content: "\e733";
+}
+
+.avw-title-arrow:before {
+  content: "\e72b";
+}
+
+.avw-title-circular:before {
+  content: "\e72c";
+}
+
+.avw-title-diamond:before {
+  content: "\e72d";
+}
+
+.avw-title-doublearrow:before {
+  content: "\e72e";
+}
+
+.avw-title-triangle:before {
+  content: "\e72f";
+}
+
+.avw-title-rectangle:before {
+  content: "\e730";
+}
+
+.avw-title-square:before {
+  content: "\e731";
+}
+
+.avw-question:before {
+  content: "\e72a";
+}
+
+.avw-chart-scatter:before {
+  content: "\e6bb";
+}
+
+.avw-chart-time:before {
+  content: "\e6bc";
+}
+
+.avw-copy:before {
+  content: "\e6bd";
+}
+
+.avw-correct:before {
+  content: "\e6be";
+}
+
+.avw-chart-system:before {
+  content: "\e6bf";
+}
+
+.avw-delete:before {
+  content: "\e6c0";
+}
+
+.avw-data-buy:before {
+  content: "\e6c1";
+}
+
+.avw-empty:before {
+  content: "\e6c2";
+}
+
+.avw-data-link:before {
+  content: "\e6c3";
+}
+
+.avw-data-upload:before {
+  content: "\e6c4";
+}
+
+.avw-expand-alt:before {
+  content: "\e6c5";
+}
+
+.avw-edit:before {
+  content: "\e6c7";
+}
+
+.avw-error:before {
+  content: "\e6c8";
+}
+
+.avw-component-off:before {
+  content: "\e6c9";
+}
+
+.avw-folder:before {
+  content: "\e6ca";
+}
+
+.avw-folder-delete:before {
+  content: "\e6cb";
+}
+
+.avw-folder-open:before {
+  content: "\e6cc";
+}
+
+.avw-eye-slash:before {
+  content: "\e6cd";
+}
+
+.avw-folder-new:before {
+  content: "\e6ce";
+}
+
+.avw-home:before {
+  content: "\e6cf";
+}
+
+.avw-import:before {
+  content: "\e6d0";
+}
+
+.avw-home-up:before {
+  content: "\e6d1";
+}
+
+.avw-layer-bottom:before {
+  content: "\e6d2";
+}
+
+.avw-layer-down:before {
+  content: "\e6d3";
+}
+
+.avw-layer-top:before {
+  content: "\e6d4";
+}
+
+.avw-list:before {
+  content: "\e6d5";
+}
+
+.avw-layer-up:before {
+  content: "\e6d6";
+}
+
+.avw-list-control:before {
+  content: "\e6d7";
+}
+
+.avw-eye:before {
+  content: "\e6d8";
+}
+
+.avw-lock-up:before {
+  content: "\e6d9";
+}
+
+.avw-more:before {
+  content: "\e6da";
+}
+
+.avw-lock-on:before {
+  content: "\e6db";
+}
+
+.avw-name:before {
+  content: "\e6dc";
+}
+
+.avw-lock:before {
+  content: "\e6dd";
+}
+
+.avw-publish:before {
+  content: "\e6de";
+}
+
+.avw-property-panel:before {
+  content: "\e6df";
+}
+
+.avw-publish-up:before {
+  content: "\e6e0";
+}
+
+.avw-reduce:before {
+  content: "\e6e1";
+}
+
+.avw-list-object:before {
+  content: "\e6e2";
+}
+
+.avw-refresh:before {
+  content: "\e6e3";
+}
+
+.avw-preview:before {
+  content: "\e6e4";
+}
+
+.avw-page-eye-slash:before {
+  content: "\e6e5";
+}
+
+.avw-return:before {
+  content: "\e6e6";
+}
+
+.avw-root:before {
+  content: "\e6e7";
+}
+
+.avw-screenshot:before {
+  content: "\e6e8";
+}
+
+.avw-search:before {
+  content: "\e6e9";
+}
+
+.avw-signout:before {
+  content: "\e6ea";
+}
+
+.avw-sort-down:before {
+  content: "\e6eb";
+}
+
+.avw-setup:before {
+  content: "\e6ec";
+}
+
+.avw-sort-left:before {
+  content: "\e6ed";
+}
+
+.avw-sort-up:before {
+  content: "\e6ee";
+}
+
+.avw-tab-action:before {
+  content: "\e6ef";
+}
+
+.avw-sort-right:before {
+  content: "\e6f0";
+}
+
+.avw-shrink-alt:before {
+  content: "\e6f1";
+}
+
+.avw-tab-map-layer:before {
+  content: "\e6f2";
+}
+
+.avw-tab-data:before {
+  content: "\e6f3";
+}
+
+.avw-tab-map-setting:before {
+  content: "\e6f4";
+}
+
+.avw-tab-market-data:before {
+  content: "\e6f5";
+}
+
+.avw-tab-market-model:before {
+  content: "\e6f6";
+}
+
+.avw-tab-market-model-color:before {
+  content: "\e6f7";
+}
+
+.avw-tab-market-template:before {
+  content: "\e6f8";
+}
+
+.avw-tab-market-data-color:before {
+  content: "\e6f9";
+}
+
+.avw-tab-project:before {
+  content: "\e6fa";
+}
+
+.avw-tab-market-template-color:before {
+  content: "\e6fb";
+}
+
+.avw-tab-project-color:before {
+  content: "\e6fc";
+}
+
+.avw-tab-style:before {
+  content: "\e6fd";
+}
+
+.avw-thumbnail-animation:before {
+  content: "\e6fe";
+}
+
+.avw-thumbnail:before {
+  content: "\e6ff";
+}
+
+.avw-thumbnail-bar:before {
+  content: "\e700";
+}
+
+.avw-thumbnail-card:before {
+  content: "\e701";
+}
+
+.avw-thumbnail-form:before {
+  content: "\e702";
+}
+
+.avw-thumbnail-custom:before {
+  content: "\e703";
+}
+
+.avw-thumbnail-gauge:before {
+  content: "\e704";
+}
+
+.avw-thumbnail-line:before {
+  content: "\e705";
+}
+
+.avw-thumbnail-graph:before {
+  content: "\e706";
+}
+
+.avw-thumbnail-image:before {
+  content: "\e707";
+}
+
+.avw-thumbnail-pie:before {
+  content: "\e708";
+}
+
+.avw-thumbnail-model:before {
+  content: "\e709";
+}
+
+.avw-thumbnail-link:before {
+  content: "\e70a";
+}
+
+.avw-thumbnail-radar:before {
+  content: "\e70b";
+}
+
+.avw-thumbnail-ranking:before {
+  content: "\e70c";
+}
+
+.avw-thumbnail-map:before {
+  content: "\e70d";
+}
+
+.avw-thumbnail-strip:before {
+  content: "\e70e";
+}
+
+.avw-thumbnail-system:before {
+  content: "\e70f";
+}
+
+.avw-thumbnail-text:before {
+  content: "\e710";
+}
+
+.avw-thumbnail-scatter:before {
+  content: "\e711";
+}
+
+.avw-thumbnail-video:before {
+  content: "\e712";
+}
+
+.avw-user:before {
+  content: "\e713";
+}
+
+.avw-warning:before {
+  content: "\e714";
+}
+
+.avw-add:before {
+  content: "\e715";
+}
+
+.avw-user-account:before {
+  content: "\e716";
+}
+
+.avw-angle-down:before {
+  content: "\e717";
+}
+
+.avw-angle-left:before {
+  content: "\e718";
+}
+
+.avw-adaptive:before {
+  content: "\e719";
+}
+
+.avw-angle-up:before {
+  content: "\e71a";
+}
+
+.avw-angle-right:before {
+  content: "\e71b";
+}
+
+.avw-auto-fill:before {
+  content: "\e71c";
+}
+
+.avw-chart-component:before {
+  content: "\e71d";
+}
+
+.avw-cancel:before {
+  content: "\e71e";
+}
+
+.avw-chart-bar:before {
+  content: "\e71f";
+}
+
+.avw-chart-equipment:before {
+  content: "\e720";
+}
+
+.avw-chart-custom:before {
+  content: "\e721";
+}
+
+.avw-chart-map:before {
+  content: "\e722";
+}
+
+.avw-chart-form:before {
+  content: "\e724";
+}
+
+.avw-chart-gauge:before {
+  content: "\e725";
+}
+
+.avw-chart-model:before {
+  content: "\e726";
+}
+
+.avw-chart-ranking:before {
+  content: "\e727";
+}
+
+.avw-chart-pie:before {
+  content: "\e728";
+}
+
+.avw-chart-media:before {
+  content: "\e729";
+}
+
